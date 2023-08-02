@@ -1,4 +1,3 @@
-
 export interface EmployeeInfo
 {
     emp_id : number;
