@@ -24,8 +24,4 @@ export class EmployeeViewComponent implements OnInit {
     this.route.params.subscribe((params: Params)=> this.employeeId = params['id']);
     this.employee = this._employeeService.getEmployee(this.employeeId);
   }
-
-  // onSelectedAccount(acct){
-  //   this.router.navigate(['/service'], {queryParams:{accttype: acct.type === 'Saving'? 's':'c'}})
-  // }
 }

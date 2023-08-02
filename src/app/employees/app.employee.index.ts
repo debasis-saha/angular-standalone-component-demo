@@ -25,7 +25,6 @@ export class EmployeeIndexComponent implements OnInit {
   }
 
   navigateUrl(path:string, id:number){
-    // this._route.navigate([path]);
     this._route.navigate([path, id]);
   }
 }
